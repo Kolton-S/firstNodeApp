@@ -1,7 +1,7 @@
 {
   "name": "firstNodeApp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Chat App",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,8 +9,11 @@
   "keywords": [],
   "author": "Kolton",
   "license": "MIT",
+  "repository": "https://github.com/Kolton-S/firstNodeApp",
   "devDependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0"
   },
   "dependencies": {
     "socket.io": "^2.0.4"
