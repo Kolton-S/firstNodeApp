@@ -18,6 +18,12 @@ io.on('connection', function(socket){
   console.log('a user connected');
   io.emit('connectMsg', {for: 'everyone', msg : `${socket.id} is here!`});
 
+  socket.on('chat message', function(msg){
+    io.emit('chat message', msg);
+  });
+  socket.on('nickname', function(nick){
+    io.emit('nickname', nick);
+  });
   socket.on('disconnect', function(){
     console.log('user disconnected');
   });
