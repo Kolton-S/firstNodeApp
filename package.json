@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Kolton",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.16.2"
+  }
 }
